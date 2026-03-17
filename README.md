@@ -6,7 +6,7 @@ This project demonstrates how to combine **Whisper STT**, **Llama-3 (Groq)** and
 
 ---
 
-# Features 🚀
+### Features 🚀
 
 * Audio transcription using Whisper (Groq)
 * Meeting summarization
@@ -20,7 +20,7 @@ This project demonstrates how to combine **Whisper STT**, **Llama-3 (Groq)** and
 
 ---
 
-# Architecture 🏗️
+### Architecture 🏗️
 
 ```bash
 Audio Input
@@ -38,20 +38,20 @@ Structured Meeting Minutes
 
 ---
 
-# Tech Stack ⚙️
+### Tech Stack ⚙️
 
-## AI / LLM
+### AI / LLM
 
 * Groq API
 * Llama-3-70B
 * Whisper Large v3
 
-## Frameworks
+### Frameworks
 
 * LangChain
 * Gradio
 
-## Python Libraries
+### Python Libraries
 
 * python-dotenv
 * requests
@@ -59,7 +59,7 @@ Structured Meeting Minutes
 
 ---
 
-# Project Structure 📁
+### Project Structure 📁
 
 ```bash
 ai-meeting-assistant/
@@ -84,9 +84,9 @@ ai-meeting-assistant/
 
 ---
 
-# Installation 🔧
+### Installation 
 
-## Clone repository
+### Clone repository
 
 ```bash
 git clone https://github.com/jsuryanm/ai-meeting-assistant.git
@@ -94,7 +94,7 @@ git clone https://github.com/jsuryanm/ai-meeting-assistant.git
 cd ai-meeting-assistant
 ```
 
-## Create virtual environment
+### Create virtual environment
 
 ```bash
 uv init 
@@ -108,7 +108,7 @@ Windows:
 venv\Scripts\activate
 ```
 
-## Install dependencies
+### Install dependencies
 
 ```bash
 uv add -r requirements.txt
@@ -116,7 +116,7 @@ uv add -r requirements.txt
 
 ---
 
-# Environment Setup 🔑
+### Environment Setup 
 
 Create `.env` file:
 
@@ -132,7 +132,7 @@ https://console.groq.com/
 
 ---
 
-# Running the Application ▶️
+### Running the Application 
 
 Run Gradio UI:
 
@@ -148,7 +148,7 @@ http://localhost:7860
 
 ---
 
-# Example Output 📊
+### Example Output 
 
 ```bash
 SUMMARY:
@@ -172,7 +172,7 @@ Possible integration delays
 
 ---
 
-# Learning Goals 🎯
+### Learning Goals
 
 This project helped me learn:
 
@@ -187,7 +187,7 @@ This project helped me learn:
 ---
 
 
-# Known Limitations 
+### Known Limitations 
 
 * No speaker identification yet
 * Requires clear audio
@@ -196,31 +196,23 @@ This project helped me learn:
 
 ---
 
-# License 📄
+### License 
 
 MIT License
 
 ---
 
-# Author 👨‍💻
+### Author 
 
 **Surya**
 
 ---
 
-# Acknowledgements 🙏
+### Acknowledgements 
 
 * Groq
 * LangChain
 * Whisper research
 * Gradio
 
----
 
-# Support ⭐
-
-If you found this useful:
-
-```bash
-Star the repository ⭐
-```
