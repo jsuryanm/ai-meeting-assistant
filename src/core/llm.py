@@ -6,6 +6,7 @@ load_dotenv()
 
 def get_llm():
     return ChatGroq(model="llama-3.3-70b-versatile")
+    
 
 # if __name__ == "__main__":
 #     llm = get_llm()
